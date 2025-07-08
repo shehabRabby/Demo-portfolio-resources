@@ -240,12 +240,12 @@ hr{
 /* Footer */
 
 #icon-img{
-  height: 40px;
+  height: 25px;
 }
 
 .icons-list{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-top: 30px;
 }
 footer{
