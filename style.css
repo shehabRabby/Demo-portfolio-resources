@@ -39,6 +39,10 @@ nav h3 span{
     cursor: pointer;
 }
 
+.all-button:hover{
+    background-color: rgb(129, 201, 13);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -119,7 +123,7 @@ align-items: center;
 
 .main-about{
     height: 380px;
-    width: 830px;
+    width: 700px;
     background-color: white;
     padding: 80px ;
     margin:  80px;
@@ -155,7 +159,6 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     margin-top: 90px;
-    
 }
 
 
@@ -227,4 +230,64 @@ align-items: center;
 
 .summary-container{
     padding: 30px;
+}
+
+hr{
+    width: 510px;
+}
+
+
+/* Footer */
+
+#icon-img{
+  height: 40px;
+}
+
+.icons-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 400px;
+    padding: 100px 400px;
+    
+}
+
+.content-flex{
+    display: flex;
+    padding: 0px;
+    align-items:start;
+    text-align: left;
+    gap: 200px;
+    
+}
+
+#here-h3{
+ font-size: 35px;
+ color: #000000;
+ font-weight: bold;
+}
+
+.contact-2{
+    display: block;
+}
+
+input[type="text"], input[type="email"]{
+ padding: 20px;
+ margin-bottom: 25px;
+ width: 300px;
+ border: none;
+ border-radius: 5px;
+}
+
+textarea{
+ width: 300px;
+ border: none;
+ color:#757575;
+ height: 250px;
+ margin-bottom: 25px;
+ padding: 20px;
+ border-radius: 5px;
 }
